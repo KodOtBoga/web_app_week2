@@ -11,7 +11,6 @@ import java.io.IOException;
 @WebServlet(name = "Forward")
 public class Forward extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
         System.out.println("Servlet 1 console");
     }
 

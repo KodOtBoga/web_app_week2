@@ -17,6 +17,7 @@ public class Servlet extends HttpServlet {
         int age = Integer.parseInt(request.getParameter("Age"));
         Game game = chooseGame(gameName,genre,age);
         request.setAttribute("game", game);
+        //request.getRequestDispatcher(request.getContextPath()+"/jsp/Output.jsp").forward(request, response);
         request.setAttribute("IDE", "Dark_Souls");
         request.getRequestDispatcher("/servlets.Forward2").forward(request, response);
     }

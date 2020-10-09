@@ -9,7 +9,7 @@
 <%  user = (User) request.getAttribute("user");
     Game game = (Game) request.getAttribute("game");
 %>
-<h3>This is a game:</h3>
+<h3>So, about your game:</h3>
 <h4>Game name: <%=game.getGameName()%></h4>
 <h4>Game Genre: <%=game.getGameGanre()%></h4>
 <h4>This game for people aged: <%=game.getGameAgeCategory()%></h4>

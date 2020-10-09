@@ -32,6 +32,7 @@ public class UserController extends HttpServlet {
                 req.setAttribute("user", user);
                 return;
             }
+            //add more fichures
         }
         resp.sendRedirect("/Web_app_week2_war/servlets.Forward");
     }

@@ -8,10 +8,10 @@
 
 <div style="text-align: center; width: 100%; height: 100%; background-color: cadetblue; padding-bottom: 30px">
 <br>
-<h3>Wanna play? choose / search a good game</h3>
+<h3>Wanna recommend a game? Type it name</h3>
 <form method="post" action="<%=request.getContextPath()%>/servlets.Servlet">
     <input type="text" name="GameName" placeholder="GameName"><br>
-    <h3>Which game genre u would prefer</h3>
+    <h3>What kind of genre it is?</h3>
     <select name="Genre">
     <option value="Shooter">Shooter</option>
         <option value="Strategy">Strategy</option>
@@ -21,10 +21,10 @@
     </select><br>
     <hr>
     <p>
-    <h3>There is a lot of game like game age gap, write ur choice pls</h3>
+    <h3>age control?</h3>
     </p>
     <input type="text" name="Age"><br>
-    <h3>Did you accept rules and policy?</h3><h3>
+    <h3>Do you realize that everyone has own taste?</h3><h3>
     yes<input type="radio" name="Privacy" value="True">
     yes, but another button<input type="radio" name="Privacy" value="False">
     <br>
